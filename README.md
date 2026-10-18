@@ -32,7 +32,7 @@ pytest
 - Usei uma lista única de dicionários em vez de listas separadas, para evitar inconsistência.
 - Categorias diferentes para receita e despesa, em uma constante CATEGORIAS, de modo que adicionar categoria vira editar um dicionário.
 
-### Persistência em JSON
+## Persistência em JSON
 Salvo as movimentações em `movimentacoes.json` para os dados não sumirem ao fechar o programa. Escolhi JSON porque cada movimentação já é um dicionário, então `json.dump` e `json.load` salvam e carregam a lista sem conversão, e o arquivo continua legível. O arquivo fica no `.gitignore` por conter dados pessoais.  
 
 ## Próximos passos
