@@ -22,11 +22,6 @@ def test_saldo_negativo():
     assert calcular_saldo(movimentacoes) == -50.0
 
 
-def test_float_nao_e_exato():
-    assert 0.1 + 0.2 != 0.3                    
-    assert 0.1 + 0.2 == pytest.approx(0.3)
-
-
 def test_salvar_e_carregar(tmp_path, monkeypatch):
     arquivo_teste = tmp_path / 'dados.json'
     monkeypatch.setattr(Controle_Financeiro, 'ARQUIVO_DADOS', arquivo_teste)
