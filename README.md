@@ -37,3 +37,4 @@ Salvo as movimentações em `movimentacoes.json` para os dados não sumirem ao f
 
 ## Próximos passos
 - Data em cada movimentação, edição/exclusão, relatório por categoria
+- Com avanços nos conhecimentos de Front-end, pretendo incrementar uma interface mais elaborada.
